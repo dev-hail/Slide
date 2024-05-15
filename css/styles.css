@@ -1,6 +1,3 @@
-:root {
-	--s: url(/images/backg.jpg);
-}
 #app, #bg-o, #bg-o>* {
 	position: absolute;
 	height: 100%;
