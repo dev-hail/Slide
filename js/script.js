@@ -446,7 +446,7 @@ F.RafR = class {
            .then(res => {
              var r = document.querySelector(':root'),
                  p = res.photos,
-                 s = p[ranp].src.compressed
+                 s = p[ranp].src.landscape
                  r.style.setProperty("--url", `url(${s})`)
            })
         }
